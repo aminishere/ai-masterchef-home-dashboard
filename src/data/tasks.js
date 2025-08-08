@@ -80,3 +80,12 @@ export const trackData = {
     },
   ],
 };
+
+export const interns = [
+  { id: 1, name: "Intern 1", action: "Record Attendance" , avatar: "https://i.pravatar.cc/40?img=1" },
+  { id: 2, name: "Intern 2", action: "Record Attendance" , avatar: "https://i.pravatar.cc/40?img=2" },
+  { id: 3, name: "Intern 3", action: "Record Attendance" , avatar: "https://i.pravatar.cc/40?img=3" },
+  { id: 4, name: "Intern 4", action: "Record Attendance" , avatar: "https://i.pravatar.cc/40?img=4" },
+  { id: 5, name: "Intern 5", action: "Record Attendance" , avatar: "https://i.pravatar.cc/40?img=5" },
+  { id: 6, name: "Intern 6", action: "Record Attendance" , avatar: "https://i.pravatar.cc/40?img=6" },
+];
