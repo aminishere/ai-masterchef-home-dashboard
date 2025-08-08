@@ -53,3 +53,30 @@ export const menuItems = [
   { label: "Performance Metrics 2024", icon: "ChartSpline" },
 ];
 
+export const trackData = {
+  name: "John Doe",
+  completedTasks: [
+    {
+      title: "Database Design",
+      completedDate: "2025-01-10",
+      timeWorked: "5.5 hours",
+      notes: "Excellent work on the database schema",
+      status: "Approved",
+    },
+    {
+      title: "API Testing",
+      completedDate: "2025-01-08",
+      timeWorked: "4.5 hours",
+      notes: "Comprehensive testing completed",
+      status: "Approved",
+    },
+  ],
+  activeTasks: [
+    {
+      title: "Frontend Development",
+      deadline: "2025-01-15",
+      timeWorked: "2 hours",
+      status: "In Progress",
+    },
+  ],
+};
