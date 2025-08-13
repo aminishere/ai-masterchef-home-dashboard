@@ -39,19 +39,19 @@ const TaskSection = ({ completedTasks, activeTasks, title, color, icon: Icon }) 
 
             {/* Completed Date / Deadline */}
             {completedTasks && task.completedDate && (
-              <p className="text-sm text-gray-400 flex items-center gap-2 pb-3">
+              <p className="text-sm text-gray-200 flex items-center gap-2 pb-3">
                 <Calendar size={14} /> Completed: {task.completedDate}
               </p>
             )}
 
             {activeTasks && task.deadline && (
-              <p className="text-sm text-gray-400 flex items-center gap-2 pb-3">
+              <p className="text-sm text-gray-200 flex items-center gap-2 pb-3">
                 <Calendar size={14} /> Deadline: {task.deadline}
               </p>
             )}
 
             {/* Time Worked */}
-            <p className="text-sm text-gray-400 flex items-center gap-2 pb-3">
+            <p className="text-sm text-gray-200 flex items-center gap-2 pb-3">
               <Clock8 size={14} /> Time Worked: {task.timeWorked}
             </p>
 
