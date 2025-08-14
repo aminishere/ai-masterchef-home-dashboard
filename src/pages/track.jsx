@@ -5,7 +5,7 @@ import TaskSection from "../components/TaskSection.jsx";
 
 const Track = () => {
   return (
-    <div className="w-screen min-h-screen bg-[#5e6e88] text-white p-6 grid grid-cols-1 gap-4 mb-0 mt-0 ml-0 mr-0 ">
+    <div className="w-screen min-h-screen bg-[#0f172a] text-white p-6 grid grid-cols-1 gap-4 mb-0 mt-0 ml-0 mr-0 ">
 
       <h2 className="text-xl font-bold mb-4">
         {trackData.name} - Detailed Track Record

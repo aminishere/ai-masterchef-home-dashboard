@@ -24,10 +24,9 @@ const TaskSection = ({ completedTasks, activeTasks, title, color, icon: Icon }) 
               <div className="flex items-center gap-2">
                 <h4 className="text-md font-semibold">{task.title}</h4>
                 <span
-                  className={`text-white text-xs px-2 py-1 rounded flex items-center gap-1 ${color.replace(
-                    "text-",
-                    "bg-"
-                  )}`}
+                  className={`text-white text-xs px-2 py-1 rounded-full flex items-center gap-1 ${
+                    task.status === "Approved" ? "bg-green-500" : "bg-blue-500"
+                  }`}
                 >
                   <Icon size={14} /> {task.status}
                 </span>
@@ -57,7 +56,7 @@ const TaskSection = ({ completedTasks, activeTasks, title, color, icon: Icon }) 
 
             {/* Notes for Completed Tasks */}
             {completedTasks && task.notes && (
-                <p className="bg-gray-800 rounded p-4 text-sm text-gray-300 flex items-center gap-2 border border-gray-700">
+                <p className="bg-gray-800 rounded p-4 text-sm text-gray-100 flex items-center gap-2 border border-gray-500">
                 <StickyNote size={14} /> {task.notes}
               </p>
             )}
